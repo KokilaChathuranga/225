@@ -9,7 +9,24 @@
       "UnauthRoleName": "amplify-votingapp-dev-125619-unauthRole",
       "StackName": "amplify-votingapp-dev-125619",
       "StackId": "arn:aws:cloudformation:us-west-1:885920578765:stack/amplify-votingapp-dev-125619/32353b50-b70d-11ec-a845-02ae6c1335bd",
-      "AmplifyAppId": "dg0fvn0imau9z"
+      "AmplifyAppId": "dg0fvn0imau9z",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-votingapp-dev-125619-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "auth": {}
+      },
+      "function": {
+        "authPostConfirmation": {
+          "GROUP": "User",
+          "deploymentBucketName": "amplify-votingapp-dev-125619-deployment",
+          "s3Key": "amplify-builds/authPostConfirmation-415071594d6c314c5746-build.zip"
+        },
+        "AdminQueries6352237c": {
+          "deploymentBucketName": "amplify-votingapp-dev-125619-deployment",
+          "s3Key": "amplify-builds/AdminQueries6352237c-436d6273704859424f6e-build.zip"
+        }
+      }
     }
   }
 }
